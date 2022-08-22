@@ -9,6 +9,6 @@ def register(hook, order=0):
 
 def event(hook, *args):
     for order in sorted(_callbacks.get(hook, {})):
-        for func _callbacks[hook][order]:
+        for func in _callbacks[hook][order]:
             func(*args)
 
