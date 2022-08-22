@@ -1,1 +1,1 @@
-_callbacks = ''
+_callbacks = {}
