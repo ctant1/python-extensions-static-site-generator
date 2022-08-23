@@ -1,3 +1,3 @@
-from ssg.extensions import hooks, parsers
+from ssg import hooks, parsers
 
 files = []
