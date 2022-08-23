@@ -12,4 +12,4 @@ def start_build():
 @hooks.register("written")
 def written():
     global total_written 
-    total_written += 1
+    total_written = total_written + 1
